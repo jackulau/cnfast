@@ -1,61 +1,62 @@
 {
-  "generatedAt": "2026-06-20T04:06:15.021Z",
-  "gitSha": "19d75d3",
-  "runtime": "Bun 1.3.14",
+  "generatedAt": "2026-06-20T04:07:13.105Z",
+  "gitSha": "50d0aeb",
+  "runtime": "Bun 1.3.11",
   "bestOf": 3,
-  "timeMs": 500,
-  "overallSpeedup": 3.3848109247401896,
+  "timeMs": 800,
+  "workloadCount": 59,
+  "overallSpeedup": 3.1198058298655655,
   "bundle": {
-    "fastcnGzip": 9332,
-    "referenceGzip": 8720
+    "fastcnGzip": 9256,
+    "referenceGzip": 8649
   },
   "rows": [
     {
       "label": "Cached re-render",
       "detail": "repeated class strings, cache hits",
-      "fastcn": 2251.9118021361082,
-      "reference": 1719.732189642886,
-      "speedup": 1.309454934726629,
+      "fastcn": 2205.7756293279667,
+      "reference": 1580.0747910170464,
+      "speedup": 1.395994443977032,
       "emphasis": false
     },
     {
       "label": "Merge engine (cold)",
       "detail": "unique strings, every call misses",
-      "fastcn": 1945.4642374232924,
-      "reference": 421.9440171217165,
-      "speedup": 4.610716489581347,
+      "fastcn": 2125.059807258434,
+      "reference": 484.4987392880556,
+      "speedup": 4.386099766494941,
       "emphasis": false
     },
     {
       "label": "Component corpus",
       "detail": "harvested app source, geomean",
-      "fastcn": 8059.637929652213,
-      "reference": 2157.8688050180663,
-      "speedup": 3.734999046702813,
+      "fastcn": 5731.998062484252,
+      "reference": 1654.7467972080476,
+      "speedup": 3.463972900358826,
       "emphasis": false
     },
     {
       "label": "Page render",
       "detail": "real call sequence, geomean",
-      "fastcn": 2709.6480159529633,
-      "reference": 1341.291149127409,
-      "speedup": 2.020178853573851,
+      "fastcn": 2586.687122465523,
+      "reference": 1294.991961085179,
+      "speedup": 1.9974541929186396,
       "emphasis": false
     },
     {
       "label": "Live data grid",
       "detail": "12K cells, live arbitrary values",
-      "fastcn": 22.281037288816258,
-      "reference": 10.507389406210194,
-      "speedup": 2.120511235231034,
+      "fastcn": 28.73598872414486,
+      "reference": 11.480126400635566,
+      "speedup": 2.503107345800127,
       "emphasis": false
     },
     {
       "label": "Overall",
-      "detail": "geometric mean of 72 workloads",
-      "fastcn": 6097.4560148497585,
-      "reference": 1801.417021636971,
-      "speedup": 3.3848109247401896,
+      "detail": "geometric mean of 59 workloads",
+      "fastcn": 4368.768601589979,
+      "reference": 1400.3334950426151,
+      "speedup": 3.1198058298655655,
       "emphasis": true
     }
   ]

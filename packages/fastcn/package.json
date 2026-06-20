@@ -64,6 +64,7 @@
     "bench": "bun bench/cn.bench.ts",
     "bench:all": "bun bench/index.ts",
     "bench:chart": "bun scripts/generate-bench-chart.ts",
+    "bench:chart:render": "bun scripts/render-chart.ts",
     "bench:lru": "bun bench/lru.bench.ts",
     "bench:cases": "bun scripts/extract-bench-cases.ts",
     "bench:report": "bun bench/report.ts",
@@ -100,6 +101,8 @@
     "tailwind-merge": "^3.6.0",
     "tinybench": "^6.0.2",
     "tinyglobby": "^0.2.10",
+    "vega": "^6.2.0",
+    "vega-lite": "^6.4.3",
     "vitest": "^3.0.0"
   }
 }

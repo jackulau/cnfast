@@ -99,6 +99,7 @@ const report: BenchReport = {
   runtime,
   bestOf: BEST_OF,
   timeMs: TIME_MS,
+  workloadCount: results.length,
   overallSpeedup,
   bundle: { fastcnGzip: bundle.fastcn.gzipped, referenceGzip: bundle.reference.gzipped },
   rows,
@@ -108,7 +109,7 @@ const jsonPath = fileURLToPath(new URL("../bench/latest.json", import.meta.url))
 const svgPath = fileURLToPath(new URL("../bench/chart.svg", import.meta.url));
 
 writeFileSync(jsonPath, `${JSON.stringify(report, null, 2)}\n`);
-writeFileSync(svgPath, renderBenchChart(report));
+writeFileSync(svgPath, await renderBenchChart(report));
 
 console.log(`\nwrote ${jsonPath}`);
 console.log(`wrote ${svgPath}`);
