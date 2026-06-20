@@ -1,0 +1,12 @@
+[
+  { "name": "calcom", "url": "https://github.com/calcom/cal.com.git" },
+  { "name": "shadcn-ui", "url": "https://github.com/shadcn-ui/ui.git" },
+  { "name": "dub", "url": "https://github.com/dubinc/dub.git" },
+  { "name": "documenso", "url": "https://github.com/documenso/documenso.git" },
+  { "name": "plane", "url": "https://github.com/makeplane/plane.git" },
+  { "name": "formbricks", "url": "https://github.com/formbricks/formbricks.git" },
+  { "name": "novel", "url": "https://github.com/steven-tey/novel.git" },
+  { "name": "midday", "url": "https://github.com/midday-ai/midday.git" },
+  { "name": "unkey", "url": "https://github.com/unkeyed/unkey.git" },
+  { "name": "taxonomy", "url": "https://github.com/shadcn-ui/taxonomy.git" }
+]

@@ -1,0 +1,12 @@
+[
+  { "name": "calcom", "url": "https://cal.com/" },
+  { "name": "shadcn-ui", "url": "https://ui.shadcn.com/" },
+  { "name": "dub", "url": "https://dub.co/" },
+  { "name": "documenso", "url": "https://documenso.com/" },
+  { "name": "plane", "url": "https://plane.so/" },
+  { "name": "formbricks", "url": "https://formbricks.com/" },
+  { "name": "novel", "url": "https://novel.sh/" },
+  { "name": "midday", "url": "https://midday.ai/" },
+  { "name": "unkey", "url": "https://www.unkey.com/" },
+  { "name": "taxonomy", "url": "https://tx.shadcn.com/" }
+]

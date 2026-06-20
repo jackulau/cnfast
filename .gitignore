@@ -1,0 +1,11 @@
+node_modules
+.turbo
+.DS_Store
+.env
+dist
+**/*.tgz
+coverage
+test-results
+.cache
+.cursor
+.claude
