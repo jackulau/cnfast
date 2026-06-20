@@ -63,6 +63,7 @@
     "typecheck": "tsc --noEmit",
     "bench": "bun bench/cn.bench.ts",
     "bench:all": "bun bench/index.ts",
+    "bench:chart": "bun scripts/generate-bench-chart.ts",
     "bench:lru": "bun bench/lru.bench.ts",
     "bench:cases": "bun scripts/extract-bench-cases.ts",
     "bench:report": "bun bench/report.ts",
