@@ -1,5 +1,9 @@
 export interface ClassDictionary {
-  [className: string]: unknown;
+  // Mirrors clsx's `Record<string, any>`: `unknown` here would reject render-function
+  // classNames (e.g. Base UI / Radix `className={(state) => ...}`) that structurally
+  // satisfy `any` but not an `unknown`-valued index signature, breaking drop-in parity.
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any -- intentional clsx type parity
+  [className: string]: any;
 }
 
 export type ClassValue =
